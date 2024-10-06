@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import React from 'react';
-import AntDesign from '@expo/vector-icons/AntDesign';
+import { AntDesign } from '@expo/vector-icons';
 
 const TabBar = ({ state, descriptors, navigation }) => {
   const primaryColor = '#0891b2';
